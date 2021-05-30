@@ -1,0 +1,17 @@
+.center{
+    text-align: center;
+    color: rgb(26, 75, 180);
+}
+
+.right{
+    text-align: right;
+    font-size: x-large;
+    color: limegreen;
+    
+
+}
+
+
+.nav{
+    background-color: lightcyan;
+}
