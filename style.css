@@ -1,6 +1,7 @@
 .center{
     text-align: center;
-    color: rgb(26, 75, 180);
+    color: blue;
+    font-weight: bolder;
 }
 
 .right{
@@ -15,3 +16,22 @@
 .nav{
     background-color: lightcyan;
 }
+
+.list-item{
+    background-color: lightcyan;
+   
+    padding: 10px;
+
+    border: 2px solid blue;
+    border-radius: 12px;
+
+}
+
+.blog-title{
+    font-size: large;
+    color: blue;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
