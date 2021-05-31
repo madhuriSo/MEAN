@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css"/>
     <script src="addFunction.js"></script>
 </head>
-<body>
+<body onload="hide()">  
 
     <div class="container">
         <h5 class="display-4 center">Simple Blogging</h5>
@@ -18,8 +18,8 @@
     <div >
         <ul class="nav justify-content-end nav" >
             
-            <li class="nav-item">
-              <a class="nav-link right" href="#">Add Blog </a>
+            <li class="nav-item" onmouseover="displayMenu()">
+              <a class="nav-link right" href="#">Add Blog </a> 
             </li>
             <li class="nav-item">
               <a class="nav-link right" href="#">Home</a>
@@ -56,13 +56,7 @@
     </div>
 
     <div class="container" id="listview" >
-
-        <div class="list">
-
-        </div>
     
-
-
     </div>
 
 

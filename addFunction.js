@@ -32,3 +32,25 @@ function addBlog() {
 
 
 }
+
+// Function to hide input details of blog
+function hide(){
+
+    document.getElementById("take-input").style.visibility = "hidden";
+    
+}
+
+
+// Function to display input details from user
+function displayMenu(){
+
+    var x=document.getElementById("take-input");
+
+    if (x.style.visibility === 'hidden') {
+        x.style.visibility = 'visible';
+      } else {
+        x.style.visibility = 'hidden';
+      }
+
+}
+
