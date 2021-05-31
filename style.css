@@ -8,12 +8,17 @@
     text-align: right;
     font-size: x-large;
     color: limegreen;
-    
-
+}
+.lable-font{
+    color: limegreen;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
 }
 
 
 .nav{
+    padding: 10px;
     background-color: lightcyan;
 }
 

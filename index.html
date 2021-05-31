@@ -10,7 +10,6 @@
     <script src="addFunction.js"></script>
 </head>
 <body onload="hide()">  
-
     <div class="container">
         <h5 class="display-4 center">Simple Blogging</h5>
     </div>
@@ -34,25 +33,24 @@
           </ul>
     </div>
 
-    <div class= "container  " id="take-input">
-            <div >
-
-            <label > Title  :</label><input type="textbox"  id="title">
-        </div>
-        <div >
-            <label > Article  :</label><textarea  name="article"  id="article"rows="3" cols="50"></textarea>
+    <div class= "container   " id="take-input">
+            <div class="form-group">
+                <label  class="lable-font"> Title  :</label>
+                <input class="form-control" type="textbox"  id="title">
             </div>
-        <div>
-            <label > Add Image  :</label>
-            
-            <input name="img1"type="file" id="imge"  accept="image/*">
-            
-        </div>    
-        <div>
-            <button  value="Add Blog" onclick="addBlog()"> Add Blog</button>
-        </div>    
-        <br/><br/>
-
+            <div >
+                <label class="lable-font"> Article  :</label>
+                <textarea  name="article"  class="form-control" id="article"rows="3" cols="50"></textarea>
+            </div>
+             <div>
+                <label  class="lable-font"> Add Image  :</label>
+                <input name="img1"type="file" class="form-control lable-font " id="imge"  accept="image/*">
+            </div>    
+                <br/><br>
+            <div>
+                <button  class="lable-font nav" value="Add Blog"  class="btn" onclick="addBlog()" > Add Blog</button>
+            </div>    
+                <br/><br/>
     </div>
 
     <div class="container" id="listview" >
